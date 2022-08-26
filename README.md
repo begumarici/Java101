@@ -1,3 +1,3 @@
 # Java101
 
-Bu repoda JAVA eğitimleri süresince oluşturulan projeler yer alıyor.
+Bu repoda JAVA eğitimleri süresince oluşturduğum projeler yer alıyor.
