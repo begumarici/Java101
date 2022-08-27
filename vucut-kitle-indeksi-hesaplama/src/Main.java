@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        double boy, kilo, endeks;
+        double boy, kilo, indeks;
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Lütfen boyunuzu metre cinsinde giriniz: ");
@@ -10,28 +10,28 @@ public class Main {
         System.out.println("Lütfen kilonuzu giriniz: ");
         kilo = scan.nextDouble();
 
-        endeks = (kilo / (boy * boy));
+        indeks = (kilo / (boy * boy));
 
         // double normal = 22*(boy-0.10)*(boy-0.10); ideal kilo hesaplamak için
 
-        if (endeks < 18.5) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        if (indeks < 18.5) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: Zayıf");
 
-        } else if (endeks >= 18.5 && endeks <= 24.9) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        } else if (indeks >= 18.5 && indeks <= 24.9) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: Normal");
-        } else if (endeks >= 25 && endeks <= 29.9) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        } else if (indeks >= 25 && indeks <= 29.9) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: Fazla Kilolu");
-        } else if (endeks >= 30 && endeks <= 34.9) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        } else if (indeks >= 30 && indeks <= 34.9) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: 1. Derece Obezite");
-        } else if (endeks >= 35 && endeks <= 40) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        } else if (indeks >= 35 && indeks <= 40) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: 2. Derece Obezite");
-        } else if (endeks > 40) {
-            System.out.println("Vücut kitle endeksiniz: " + endeks);
+        } else if (indeks> 40) {
+            System.out.println("Vücut kitle indeksiniz: " + indeks);
             System.out.println("Kilo kategorisi: 3. Derece Obezite");
 
 
