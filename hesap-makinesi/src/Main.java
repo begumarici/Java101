@@ -37,7 +37,6 @@ public class Main {
                     break;
                 default:
                     System.out.println("Yanlış seçim yaptınız. Lütfen programı yeniden çalıştırıp tekrar deneyin.");
-                    break;
 
 
             }
