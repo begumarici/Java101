@@ -1,4 +1,4 @@
-# Vücut kitle endeksi hesaplama programı
+# Vücut kitle indeksi hesaplama programı
 
 ---
 
