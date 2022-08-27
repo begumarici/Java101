@@ -15,6 +15,7 @@ public class Main {
 
         select = input.nextInt();
 
+
             switch (select) {
                 case 1:
                     System.out.println("Toplam: " + n1 + n2);
